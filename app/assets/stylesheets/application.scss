@@ -28,10 +28,14 @@ body {
   display: none;
 }
 
-
 header {
+    height: 55px;
+    width: 100%;
     display: flex;
-    background-color:rgba( 255, 255, 255, 0.5 );
+    background-color: rgba(35, 50, 53, 0.7);
+    position: fixed;
+    top: 0;
+    z-index: 10;
   }
   
   header div:first-child {
