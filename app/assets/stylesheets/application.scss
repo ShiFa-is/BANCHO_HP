@@ -15,6 +15,8 @@
  */
 
 @import "bootstrap";
+@import 'font-awesome-sprockets';
+@import 'font-awesome';
 
 html,
 body {
@@ -22,6 +24,11 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+}
+
+a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  text-decoration: none;
 }
 
 .profiler-results {
@@ -58,4 +65,132 @@ header {
 
   h1 {
     font-family: Hiragino Sans;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 50px;
+  }
+
+  .sns-container {
+    font-size: 30px;
+  }
+
+  .profile-wrapper {
+    height: 500px;
+    padding-bottom: 80px;
+    background-color: #EEEEEE;
+    text-align: center;
+  }
+  
+  .heading {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #5f5d60;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+  }
+  
+  .profile {
+    float: left;
+    width: 25%;
+  }
+  
+  .profile-icon {
+    position: relative;
+  }
+  
+  .profile-icon p {
+    position: absolute;
+    top: 90px;
+    width: 100%;
+    color: white;
+  }
+
+  .example1 {
+    width: 80%;
+    height: 80%;
+  }
+  
+  .txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #b3aeb5;
+  }
+
+  .message-wrapper {
+    border-bottom: 1px solid #eee;
+    text-align: center;
+  }
+
+  .message-wrapper h3 {
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .message {
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+  }
+  
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+
+  footer {
+    padding: 30px 0px;
+    background-color: #ff5e00b3;
+  }
+
+  .footer-container p {
+    text-align: left;
+    display: inline-block;
+  }
+
+  #page_top{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background: #ef3f40;
+    opacity: 0.6;
+    border-radius: 50%;
+  }
+  #page_top a{
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+  }
+  #page_top a::before{
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\f0d8';
+    font-size: 25px;
+    color: #fff;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: -5px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    text-align: center;
   }

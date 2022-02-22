@@ -1,7 +1,13 @@
 <div class="sns align-middle">
   <div class="text-center">
     <h1 class="title mb-2">SNS</h1>
-    <h2 class="subtitle mb-2">youtube</h2>
-    <h2 class="subtitle mb-2">Twitter</h2>
+      <div class ="sns-container">
+        <%= link_to "https://www.youtube.com/channel/UCAQQrchdEWZwc0UuLdXsQvA", target: :_blank, rel: "noopener noreferrer", class: "p-2 mb-2 text-dark" do %>
+        <%= icon('fab', 'youtube') %> Youtube <%# => <i class="fab fa-youtube"></i> 略 %>
+        <% end %>
+        <%= link_to  "https://twitter.com/OTOKOGI_BANCHO", target: :_blank, rel: "noopener noreferrer", class: "p-2 mb-2 text-dark" do %>
+        <%= icon('fab', 'twitter') %> Twitter <%# => <i class="fab fa-twitter"></i> 略 %>
+        <% end %>
+      </div>
   </div>
 </div>
