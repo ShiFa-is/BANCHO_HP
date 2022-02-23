@@ -6,4 +6,5 @@ Rails.application.routes.draw do
   get 'sns' => 'homes#sns'
 
   resources :users
+  
 end

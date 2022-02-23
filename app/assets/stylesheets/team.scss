@@ -1,0 +1,56 @@
+// Place all the styles related to the users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.teams {
+    height: 100%;
+    width: 100%;
+    display: table;
+    background-image: url(/assets/team6.jpg);
+    background-color:rgba(255,255,255,0.4);
+    background-blend-mode:lighten;
+    background-size: 100% 100%;
+}
+
+.team-member {
+    text-align: center;
+    margin-top: 65px;
+}
+
+.heading-title {
+    font-size: 50px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 8px;
+}
+
+.heading-subtext {
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+}
+
+.team {
+    background: #FFF;
+    padding: 2rem;
+    float: left;
+    width: 16%;
+  }
+  
+  .team__img {
+    display: block;
+    width: 160px;
+    height: 160px;
+    border-radius:50%;
+    margin: 0 auto;
+  }
+  
+  .team__name {
+    text-align:center;
+    font-weight:bold;
+    font-size:1.2rem;
+    margin: 1rem auto 1rem;
+    letter-spacing:.1rem;
+  }
+  
+  .team__desc {
+    line-height:1.6rem;
+  }

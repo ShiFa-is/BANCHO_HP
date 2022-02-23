@@ -36,21 +36,22 @@ sub-title {
     background-size: 100% 100%;
 }
 
-.team {
-    height: 100%;
-    width: 100%;
-    display: table;
-    background-image: url(/assets/team5.jpg);
-    background-color:rgba(255,255,255,0.4);
-    background-blend-mode:lighten;
-    background-size: 100% 100%;
-}
 
 .sns {
     height: 100%;
     width: 100%;
     display: table;
     background-image: url(/assets/logo3.jpg);
+    background-color:rgba(255,255,255,0.4);
+    background-blend-mode:lighten;
+    background-size: 100% 100%;
+}
+
+.art {
+    height: 100%;
+    width: 100%;
+    display: table;
+    background-image: url(/assets/art1.jpg);
     background-color:rgba(255,255,255,0.4);
     background-blend-mode:lighten;
     background-size: 100% 100%;
