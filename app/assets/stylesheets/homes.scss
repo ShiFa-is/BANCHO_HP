@@ -2,8 +2,14 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
+
 .title {
-    font-family: serif;
+    font-family: 'Anton', sans-serif;
+    color: white;
+    letter-spacing: 0.1em;
+    opacity: 0.8;
+
   }
   
 sub-title {
@@ -24,35 +30,4 @@ sub-title {
 .text-center {
     display: table-cell;
     vertical-align: middle;
-}
-
-.about {
-    height: 100%;
-    width: 100%;
-    display: table;
-    background-image: url(/assets/team3.jpg);
-    background-color:rgba(255,255,255,0.4);
-    background-blend-mode:lighten;
-    background-size: 100% 100%;
-}
-
-
-.sns {
-    height: 100%;
-    width: 100%;
-    display: table;
-    background-image: url(/assets/logo3.jpg);
-    background-color:rgba(255,255,255,0.4);
-    background-blend-mode:lighten;
-    background-size: 100% 100%;
-}
-
-.art {
-    height: 100%;
-    width: 100%;
-    display: table;
-    background-image: url(/assets/art1.jpg);
-    background-color:rgba(255,255,255,0.4);
-    background-blend-mode:lighten;
-    background-size: 100% 100%;
 }

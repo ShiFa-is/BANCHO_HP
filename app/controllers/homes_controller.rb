@@ -9,7 +9,10 @@ class HomesController < ApplicationController
     def team
     end
 
-    def sns
+    def goods
+    end
+
+    def live
     end
 
 end

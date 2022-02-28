@@ -1,0 +1,18 @@
+<%= render 'users/index' %>
+
+<div class="box">
+  <div class="pict"><img src="/assets/suzu2.jpg" alt="スズ"></div>
+  <div class="text">
+    <p>スズ</p>
+    <p>センスを目指す動画投稿者。</p>
+    <p>私は「キング・オブ・センス（KOS）」</p>
+    <%= link_to "https://www.youtube.com/channel/UCGHaxlZ9ixHeGt7eRtxWUBA", target: :_blank, rel: "noopener noreferrer", class: "text-dark" do %>
+    <%= icon('fab', 'youtube') %> Youtube
+    <% end %>
+    <%= link_to  "https://twitter.com/zetyou2/media", target: :_blank, rel: "noopener noreferrer", class: "p-4 mb-3 text-dark" do %>
+    <%= icon('fab', 'twitter') %> Twitter
+    <% end %>
+  </div>
+</div>
+
+<div class="back">

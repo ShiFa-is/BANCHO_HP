@@ -1,0 +1,18 @@
+<%= render 'users/index' %>
+
+<div class="box">
+  <div class="pict"><img src="/assets/nero2.jpg" alt="ねろちゃん"></div>
+  <div class="text">
+    <p>ねろちゃん</p>
+    <p>ツナと酒が好き。</p>
+    <p>好きです。</p>
+    <%= link_to "https://www.youtube.com/channel/UCQfjyVNlXxkolaj1J7gHsbA", target: :_blank, rel: "noopener noreferrer", class: "text-dark" do %>
+    <%= icon('fab', 'youtube') %> Youtube
+    <% end %>
+    <%= link_to  "https://twitter.com/ZackdNerrr", target: :_blank, rel: "noopener noreferrer", class: "p-4 mb-3 text-dark" do %>
+    <%= icon('fab', 'twitter') %> Twitter
+    <% end %>
+  </div>
+</div>
+
+<div class="back">

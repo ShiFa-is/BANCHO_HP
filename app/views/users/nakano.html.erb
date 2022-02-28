@@ -1,0 +1,19 @@
+<%= render 'users/index' %>
+
+<div class="flex">
+  <div class="item">
+    <img src="/assets/nakano2.jpg">
+  </div>
+  <div class="item">
+    <p>なかのっち</p>
+    <p>実況者ではなく絶叫者</p>
+    <p><%= link_to "https://www.youtube.com/channel/UCDRgGRWQEJ0S3JWuL4mefQw", target: :_blank, rel: "noopener noreferrer", class: "text-dark" do %>
+    <%= icon('fab', 'youtube') %> Youtube
+    <% end %>
+    <%= link_to  "https://twitter.com/nakanocchi2", target: :_blank, rel: "noopener noreferrer", class: "p-4 mb-3 text-dark" do %>
+    <%= icon('fab', 'twitter') %> Twitter
+    <% end %></p>
+  </div>
+</div>
+
+<div class="back">

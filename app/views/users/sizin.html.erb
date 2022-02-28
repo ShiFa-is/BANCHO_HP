@@ -1,0 +1,18 @@
+<%= render 'users/index' %>
+
+<div class="box">
+  <div class="pict"><img src="/assets/sizin2.jpg" alt="詩人さん"></div>
+  <div class="text">
+    <p>詩人さん</p>
+    <p>音程が来い常習犯</p>
+    <p>('∀`)混沌創造神詩人</p>
+    <%= link_to "https://www.youtube.com/channel/UCP_PHPuynkNUM6Cezwx2m6g", target: :_blank, rel: "noopener noreferrer", class: "text-dark" do %>
+    <%= icon('fab', 'youtube') %> Youtube
+    <% end %>
+    <%= link_to  "https://twitter.com/mentoku?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor", target: :_blank, rel: "noopener noreferrer", class: "p-4 mb-3 text-dark" do %>
+    <%= icon('fab', 'twitter') %> Twitter
+    <% end %>
+  </div>
+</div>
+
+<div class="back">

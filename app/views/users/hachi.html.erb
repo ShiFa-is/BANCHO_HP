@@ -1,0 +1,19 @@
+<%= render 'users/index' %>
+
+<div class="flex">
+  <div class="item">
+    <img src="/assets/hachi2.jpg">
+  </div>
+  <div class="item">
+    <p>ハッチャン</p>
+    <p>AmongUs配信者</p>
+    <p><%= link_to "https://www.youtube.com/channel/UCNYDDHUwtYhVEXEJU9RgYRg", target: :_blank, rel: "noopener noreferrer", class: "text-dark" do %>
+    <%= icon('fab', 'youtube') %> Youtube
+    <% end %>
+    <%= link_to  "https://twitter.com/_HACCHAAN", target: :_blank, rel: "noopener noreferrer", class: "p-4 mb-3 text-dark" do %>
+    <%= icon('fab', 'twitter') %> Twitter
+    <% end %></p>
+  </div>
+</div>
+
+<div class="back">

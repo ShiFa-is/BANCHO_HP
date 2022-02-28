@@ -1,0 +1,18 @@
+<%= render 'users/index' %>
+
+<div class="flex">
+  <div class="item
+  "><img src="/assets/natu2.jpg" alt="なつぴょん"></div>
+  <div class="item">
+    <p>なつぴょん</p>
+    <p>ゲーム実況たまにピアノ弾く人</p>
+    <p><%= link_to "https://www.youtube.com/channel/UCpHpCBJyvxO-fTpHtR7W74w", target: :_blank, rel: "noopener noreferrer", class: "text-dark" do %>
+    <%= icon('fab', 'youtube') %> Youtube
+    <% end %>
+    <%= link_to  "https://twitter.com/natsuki_rui?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor", target: :_blank, rel: "noopener noreferrer", class: "p-4 mb-3 text-dark" do %>
+    <%= icon('fab', 'twitter') %> Twitter
+    <% end %></p>
+  </div>
+</div>
+
+<div class="back">

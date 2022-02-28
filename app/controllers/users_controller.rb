@@ -1,14 +1,33 @@
 class UsersController < ApplicationController
 
-  def new
+  def nakano
   end
 
-  def index
+  def hachi
   end
 
-  private
-  def post_params
-    params.require(:post).permit(:title, :text)
+  def ponzu
+  end
+
+  def misato
+  end
+
+  def suzu
+  end
+
+  def nero
+  end
+
+  def bancho
+  end
+
+  def konno
+  end
+
+  def natu
+  end
+
+  def sizin
   end
 
 end

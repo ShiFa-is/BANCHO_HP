@@ -1,0 +1,18 @@
+<%= render 'users/index' %>
+
+<div class="box">
+  <div class="pict"><img src="/assets/bancho2.jpg" alt="番長"></div>
+  <div class="text">
+    <p>番長/番田長助</p>
+    <p>心は永遠の18歳。姓は番田、名は長助</p>
+    <p>夜露四苦卍</p>
+    <%= link_to "https://www.youtube.com/channel/UCAQQrchdEWZwc0UuLdXsQvA", target: :_blank, rel: "noopener noreferrer", class: "text-dark" do %>
+    <%= icon('fab', 'youtube') %> Youtube
+    <% end %>
+    <%= link_to  "https://twitter.com/OTOKOGI_BANCHO", target: :_blank, rel: "noopener noreferrer", class: "p-4 mb-3 text-dark" do %>
+    <%= icon('fab', 'twitter') %> Twitter
+    <% end %>
+  </div>
+</div>
+
+<div class="back">

@@ -1,0 +1,18 @@
+<%= render 'users/index' %>
+
+<div class="box">
+  <div class="pict"><img src="/assets/seto2.jpg" alt="瀬戸あさひ"></div>
+  <div class="text">
+    <p>瀬戸あさひ</p>
+    <p>愛称は「クソメガネ」</p>
+    <p>いろはす潰さず捨てるやつサイコパス</p>
+    <%= link_to "https://www.youtube.com/channel/UCuE6xoui7gZOTUiF0OtWWJw/featured", target: :_blank, rel: "noopener noreferrer", class: "text-dark" do %>
+    <%= icon('fab', 'youtube') %> Youtube
+    <% end %>
+    <%= link_to  "https://twitter.com/asahi_ych", target: :_blank, rel: "noopener noreferrer", class: "p-4 mb-3 text-dark" do %>
+    <%= icon('fab', 'twitter') %> Twitter
+    <% end %>
+  </div>
+</div>
+
+<div class="back">

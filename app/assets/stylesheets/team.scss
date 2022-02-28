@@ -6,10 +6,14 @@
     height: 100%;
     width: 100%;
     display: table;
-    background-image: url(/assets/team6.jpg);
-    background-color:rgba(255,255,255,0.4);
+    background-image: url(/assets/urusen4.jpg);
+    background-color:rgba(255,255,255,0.3);
     background-blend-mode:lighten;
     background-size: 100% 100%;
+}
+
+.team-back {
+
 }
 
 .team-member {
@@ -32,23 +36,24 @@
     background: #FFF;
     padding: 2rem;
     float: left;
-    width: 16%;
+    width: 25%;
   }
   
   .team__img {
     display: block;
     width: 160px;
     height: 160px;
-    border-radius:50%;
+    border-radius: 50%;
     margin: 0 auto;
   }
   
   .team__name {
     text-align:center;
     font-weight:bold;
-    font-size:1.2rem;
+    font-size:1.1rem;
     margin: 1rem auto 1rem;
     letter-spacing:.1rem;
+    color: black;
   }
   
   .team__desc {
